@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(235, 219, 194);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  color: rgb(49, 23, 5);
+  background-color: rgb(225, 181, 111);
+}
+h5{
+  background-color: rgba(255, 255, 255, 0.42);
+}
+.subtitulo{
+  background-color: rgba(255, 255, 255, 0.42);
+}
+.accordion-item .accordion-header .accordion-button:hover{
+  background-color: rgb(6, 74, 34);
+  color: white;
+  
+}
+.accordion-item .accordion-header .accordion-button{
+  background-color: rgb(153, 227, 164);
+  color: rgb(26, 22, 22);
+}
+#carousel {
+max-width: 600px; 
+margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+/* Cambia la posición de manera absoluta */
+position: absolute;
+top: 50%; /* Alinea verticalmente al centro */
+transform: translateY(-50%); /* Ajusta verticalmente en función del tamaño del botón */
+}
+
+/* Ajusta el espacio entre los botones y los bordes */
+.carousel-control-prev {
+left: 340px; /* Cambia la posición izquierda */
+background-size: 15px 15px; /* Cambia el tamaño del ícono */
+width: 15px; /* Cambia el ancho del ícono */
+height: 15px; /* Cambia la altura del ícono */
+}
+
+.carousel-control-next {
+right: 340px; /* Cambia la posición derecha */
+background-size: 15px 15px; /* Cambia el tamaño del ícono */
+width: 15px; /* Cambia el ancho del ícono */
+height: 15px; /* Cambia la altura del ícono */
+}
+#arbol{
+width: 50px;
+height: 50px;
+}
+.carousel-control-prev{
+background-color: white;
+}
+.carousel-control-next{
+background-color: white;
+}
